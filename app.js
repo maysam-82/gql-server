@@ -4,7 +4,7 @@ const schema = require("./schema/schema");
 const cors = require("cors");
 const app = express();
 
-const PORT = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 // Allow cross-origin request
 app.use(cors());
